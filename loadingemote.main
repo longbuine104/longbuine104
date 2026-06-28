@@ -2,7 +2,7 @@ local src = ""
 local CoreGui = game:GetService("StarterGui")
 
 pcall(function()
- src = game:HttpGet("https://yarhm.com/scr?channel=afemmax", false)
+ src = game:HttpGet("https://raw.githubusercontent.com/longbuine104/longbuine104/refs/heads/main/emotelink1.main", false)
 end)
 if src == "" then
  CoreGui:SetCore("SendNotification", {
@@ -10,7 +10,7 @@ if src == "" then
  Text = "YARHM Online is currently unavailable! Sorry for the inconvenience. Using AFEM Max Offline.";
  Duration = 5;
  })
- src = game:HttpGet("https://raw.githubusercontent.com/Joystickplays/AFEM/refs/heads/main/max/afemmax.lua", false)
+ src = game:HttpGet("https://raw.githubusercontent.com/longbuine104/longbuine104/refs/heads/main/emotelink2.main", false)
 end
 
 loadstring(src)()
